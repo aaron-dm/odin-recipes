@@ -9,7 +9,6 @@ ul{
 }
 
 li {
-    padding: 10px;
     margin: 10px;
     border: 3px solid;
     font-weight: bold;
@@ -18,10 +17,18 @@ li {
     
 }
 
+li a {
+    display: block;
+    padding: 10px;
+}
+
+li a:hover {
+    background-color: #bdc3c7;
+}
+
 span{
     display: flex;
     padding: 10px;
-
 
 }
 
